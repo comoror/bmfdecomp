@@ -18,3 +18,5 @@ mofcomp  -Amendment:ms_409 -MOF:output.MOF input.bmf
 其实，mof“编译”为bmf的过程是个文件压缩和编码的过程，所以bmf文件仍可“看作”是mof文件，将其作为mofcomp拆分mof的输入，即可“反编译”bmf文件为mof文件。
 
 mofcomp.exe位于C:\Windows\System32\wbem\目录下，可以直接在命令行中使用。
+
+知乎：[如何将bmf文件“反编译”为mof文件](https://zhuanlan.zhihu.com/p/682857530)
